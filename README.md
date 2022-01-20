@@ -16,3 +16,6 @@
 ### chapter4
 - [프로세스 관리](/chapter04/Process_Management.md)
 
+### chapter5
+- [Cpu Scheduling](/chapter05/Cpu_Scheduling.md)
+
