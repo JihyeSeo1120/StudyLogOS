@@ -4,6 +4,7 @@
 
 ## 운영체제 공부 기록
 - [운영체제 강의](http://www.kocw.or.kr/home/cview.do?mty=p&kemId=1046323)
+- [내 스터디 바로가기(내가 편하려고😅)](https://github.com/DewPeaceTigers/OSStudy)
 > 계속 보충해갈 예정!😊
 
 <br>
