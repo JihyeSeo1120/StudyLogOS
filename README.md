@@ -16,4 +16,5 @@
 - **chapter4** [Process Management](/chapter04/Process_Management.md)
 - **chapter5** [Cpu Scheduling](/chapter05/Cpu_Scheduling.md)
 - **chapter6** [Process Synchronization](/chapter06/Process_Synchronization.md)
+- **chapter7** [Deadlocks](/chapter07/Deadlocks.md)
 
