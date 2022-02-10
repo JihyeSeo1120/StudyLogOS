@@ -1,4 +1,4 @@
-# StudyLogOS
+# StudyOperatingSystem
 
 <br>
 
