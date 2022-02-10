@@ -7,7 +7,7 @@
 - 프로세스가 자원을 사용하는 절차(4단계)
     - Request(자원 요청), Allocate(자원 획득), Use(사용), Release(반납)
 
----
+<br>
 
 ## Deadlock의 발생조건
 
@@ -32,7 +32,7 @@
 
 P1,P2,P3,P4프로세스가 있을 때 P1 → P2 → P3 → P4 → P1
 
----
+<br>
 
 ## Resource - Allocation Graph
 
@@ -58,7 +58,7 @@ P1,P2,P3,P4프로세스가 있을 때 P1 → P2 → P3 → P4 → P1
 - 오른쪽의 경우 사이클이 만들어졌지만 R2자원을 가진 P4가 작업을 마무리 하면 R2의 자원을 내놓으므로 사이클이 만들어 졌지만 Deadlock nooo0
 - 왼쪽의 경우 Deadlock인 상황
 
----
+<br>
 
 ## Deadlock의 처리 방법
 
@@ -116,9 +116,9 @@ Deadlock 발생시 recovery 2가지 방법
 
 Deadlock이 일어나지 않는다고 생각하고 아무런 조치를 하지 않으며 Deadlock이 매우 드물게 발생하므로 Deadlock의 조치에 자체가 더 큰 overhead일 수 있음. UNIX를 포함한 대부분의 OS가 사용하며 사람이 프로세스가 문제 생겼을 때 프로세스를 죽이든 알아서 처리
 
----
+<br>
 
-## **Resource Allocation Graph algorithm | Banker's algorithm**
+## Resource Allocation Graph algorithm | Banker's algorithm
 
 - Deadlock 회피(avoidance)는 프로세스가 시작할 때 본인이 평생 사용할 자원들을 미리 declare하고 그걸 이용해서 Deadlock이 발생할 수 있는 최악의 상황, 즉 현재 상황에서 만약에 어떤 프로세스가 어떤 자원에 대한 요청을 하였을 때 생길 수 있는 1%의 경우를 피해가는 방법.
 - 각 자원에 instance가 하나만 있는 경우 Resource Allocation Graph algorithm,
