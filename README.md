@@ -18,4 +18,5 @@
 - **chapter6** [Process Synchronization](/chapter06/Process_Synchronization.md)
 - **chapter7** [Deadlocks](/chapter07/Deadlocks.md)
 - **chapter8** [Memory Management](/chapter08/Memory_Management.md)
+- **chapter9** [Virtual Memory](/chapter09/Virtual_Memory.md)
 
