@@ -19,5 +19,6 @@
 - **chapter7** [Deadlocks](/chapter07/Deadlocks.md)
 - **chapter8** [Memory Management](/chapter08/Memory_Management.md)
 - **chapter9** [Virtual Memory](/chapter09/Virtual_Memory.md)
-- **chapter10** [File System](/chapter10/File_System.md)
+- **chapter10-1** [File System](/chapter10/File_System.md)
+- **chapter11** [Disk Management and Scheduling](/chapter11/Disk_Management_and_Scheduling.md)
 
