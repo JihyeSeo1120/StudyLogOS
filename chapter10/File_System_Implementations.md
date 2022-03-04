@@ -128,7 +128,7 @@
 
 1. Unified Buffer Cache를 사용하지 않는 File I/O
 - memory-maped: 명령어를 통해 memory mapped 선언. 처음엔 똑같이 데이터를 디스크에서 버퍼 캐시로 가져옴. 그다음 그 내용을 page cache에 복사. 사용자는 이제 자신의 메모리 영역에 읽고 쓰듯이 작업을 하면서 파일 입/출력 가능. 일단 메모리에 올라오면 운영체제의 write/read syscall처럼 운영체제의 도움 없이 스스로 읽기/쓰기 작업이 가능함. 하지만 어떤 방법을 사용하든 버퍼 캐시에 접근을 해야 함
-1. Unified Buffer Cache를 사용하는 File I/O
+2. Unified Buffer Cache를 사용하는 File I/O
 - 운영체제가 공간을 따로 나누지 않고 page cache에서 분할해서 사용하는 경우
     - I/O 작업 -> syscall을 통해 운영체제에게 CPU 제어권이 넘어감.
     - memory-mapped: 초반 메모리 주소-파일 맵핑 작업 이후에는, 사용자 프로그램의 주소 영역에 페이지 캐시가 맵핑이 됨. 그러면 페이지 캐시이자 버퍼 캐시가 모두 파일에 맵핑되었기 때문에 운영체제의 도움 없이 파일 I/O 작업이 가능
